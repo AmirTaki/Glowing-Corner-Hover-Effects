@@ -20,7 +20,7 @@ body {
     flex-wrap: wrap
 }
 
-.card {
+.container .card {
     position: relative;
     width: 320px;
     height: 400px;
@@ -29,14 +29,19 @@ body {
     overflow: hidden;
 }
 
-.card::before {
+.container .card::before {
     content: '';
     position: absolute;
     top: var(--y);
     left: var(--x);
     transform:  translate(-50%, -50%);
-    background: linear-gradient(var(--clr), transparent, transparent);
-    width: 400px;
-    height: 400px;
+    background: linear-gradient(var(--clr), blue, yellow);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
     opacity: 0;
+}
+
+.container .card:hover::before{
+
 }
