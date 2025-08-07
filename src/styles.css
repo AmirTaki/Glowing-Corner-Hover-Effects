@@ -19,3 +19,11 @@ body {
     gap: 50px;
     flex-wrap: wrap
 }
+
+.card {
+    position: relative;
+    width: 320px;
+    height: 400px;
+    background: rgba(45, 45, 45, 1) ;   
+    border-radius: 20px;
+}
