@@ -6,8 +6,8 @@ cards.forEach((card) => {
         const x = e.pageX - card.offsetLeft;
         const y = e.pageY - card.offsetTop;
 
-        card.style.setPropery("--x", x + 'px');
-        card.style.setPropery("--y", y + 'px');
+        card.style.setProperty("--x", x + 'px');
+        card.style.setProperty("--y", y + 'px');
     })
     
 })

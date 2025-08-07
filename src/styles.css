@@ -32,6 +32,7 @@ body {
 .card::before {
     content: '';
     position: absolute;
+    top: var(--y);
     background: linear-gradient(var(--clr), transparent, transparent);
     width: 400px;
     height: 400px;
