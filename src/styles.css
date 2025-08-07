@@ -34,7 +34,7 @@ body {
     position: absolute;
     top: var(--y);
     left: var(--x);
-    transform:  translate(-50%, -50%);
+    /* transform:  translate(-50%, -50%); */
     background: linear-gradient(var(--clr), transparent, transparent);
     width: 700px;
     height: 700px;
@@ -51,6 +51,6 @@ body {
     content: '';
     position: absolute;
     inset: 2px;
-    background: rgba(45, 45, 45, .75);
+    background: rgba(45, 45, 45, .9);
     border-radius:  18px;
 }
