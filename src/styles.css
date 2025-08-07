@@ -27,3 +27,11 @@ body {
     background: rgba(45, 45, 45, 1) ;   
     border-radius: 20px;
 }
+
+.card::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(var(--clr), transparent);
+    width: 700px;
+    height: 700px;
+}
