@@ -36,11 +36,11 @@ body {
     top: var(--y);
     left: var(--x);
     /* transform:  translate(-115%, -115%); */
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -90%);
     background: linear-gradient(var(--clr), blue, red);
-    width: 260px;
-    height: 260px;
-    border-radius: 100%;
+    width: 360px;
+    height: 360px;
+    border-radius: 102%;
     opacity: 0;
     transition: .5s, left 0s, top 0s;
 }
