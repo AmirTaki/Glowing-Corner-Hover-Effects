@@ -35,8 +35,8 @@ body {
     
     top: var(--y);
     left: var(--x);
-    /* transform:  translate(-115%, -115%); */
-    transform: translate(-60%, -90%);
+    transform:  translate(-115%, -100%);
+    /* transform: translate(-50%, -50%); */
     background: linear-gradient(var(--clr), blue, red);
     width: 360px;
     height: 360px;
