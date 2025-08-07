@@ -46,3 +46,11 @@ body {
 .container .card:hover::before{
     opacity: 1;
 }
+
+.container .card::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: rgba(45, 45, 45, .75);
+    border-radius:  18px;
+}
