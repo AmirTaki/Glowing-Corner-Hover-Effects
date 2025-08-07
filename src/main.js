@@ -1,1 +1,8 @@
 const cards = document.querySelectorAll(".card");
+
+
+cards.forEach((card) => {
+    card.addEventListener("mousemove", (e)=> {
+        const x = e.pa
+    })
+})
